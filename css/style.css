@@ -1,0 +1,599 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+
+* { margin: 0; padding: 0;}
+li { list-style: none; }
+a { color: inherit; text-decoration: none;}
+img { display: block; }
+body { box-sizing: border-box;}
+video { display: block;}
+
+div#wrap {
+    width: 100%;
+    background-color: #F5F5F5;
+}
+header { 
+    position: relative; top: 0; width: 100%;
+}
+header div.inner {
+    height: 120px; 
+    display: flex; justify-content: space-around; align-items: center;
+}
+header div.inner div.logo {
+    height: 75px; position: absolute; top: 0; bottom: 0; left: 0; margin: auto; 
+}
+header div.inner div.logo img {
+    width: 200px; height: 40px;
+    padding: 30px 50px;
+}
+header div.inner div.nav {
+    display: flex;  align-items: center; 
+    justify-content: space-between;
+}
+header div.inner div.nav ul.gnb {
+    display: flex;  position: absolute; top: 50px; left: 350px;
+}
+header div.inner div.nav ul.gnb li {
+    padding: 10px 20px 34px 20px;  font-size: 18px;
+    text-align: center; font-weight: bold; 
+}
+header div.inner div.submenu {
+    display: flex; position: absolute; top: 50px; right: 50px;
+    justify-content: space-between;
+}
+header div.inner div.submenu ul.loginmenu {
+    display: flex; ;
+}
+header div.inner div.submenu ul.loginmenu li {
+    padding: 10px 10px 34px 10px; font-size: 18px;
+    text-align: center; font-weight: bold;
+}
+header div.inner div.submenu ul.loginmenu li {
+    padding: 10px 10px 34px 10px; font-size: 18px;
+    text-align: center; font-weight: bold;
+}
+section.contents {
+    width: 100%; position: relative;
+}
+section.video {
+    width: 100%; position: relative;
+    margin-top: 100px;
+}
+section.video div.inner {
+    width: 100%; margin: 0 auto;
+}
+section.video div.inner video {
+    width: 100%; height: 700px;
+    object-fit: cover;
+}
+section.mycar {
+    width: 100%;  margin-top: 150px;
+}
+section.mycar div.inner {
+    width: 1320px; position: relative;  margin: 0 auto;
+    display: flex; justify-content: space-between; align-items: center;
+}
+section.mycar {
+    width: 100%;
+} 
+section.mycar p {
+    font-size: 32px; text-align: center;
+    font-weight: bold;
+}
+section.mycar div.inner {
+    width: 1320px; position: relative; 
+    margin-top: 100px;
+}
+section.mycar div.inner article.kona {
+    height: 500px;
+}
+section.mycar div.inner article.kona a > img {
+    width: 400px;
+}
+section.mycar div.inner article.kona  {
+    width: 400px;
+}
+section.mycar div.inner article.ioniq {
+    height: 500px;
+}
+section.mycar div.inner article.ioniq a > img {
+    width: 400px;
+}
+section.mycar div.inner article.ioniq  {
+    width: 400px;
+}
+section.mycar div.inner article.avante {
+    height: 500px;
+}
+section.mycar div.inner article.avante a > img {
+    width: 400px;
+}
+section.mycar div.inner article.avante  {
+    width: 400px;
+}
+section.mycar div.inner article ul.option  {
+    position: relative; margin-top: 40px;
+    display: flex; justify-content: space-around; align-items: center;
+}
+section.mycar div.inner article ul.option li {
+    width: 150px; height: 30px; text-align: center; line-height: 30px; 
+    color: #fff; background-color: #333;  font-size: 14px; font-weight: 300;
+    border: 1px solid gray;
+}
+section.mycar div.inner article ul.option li:hover > a {
+    display: block; background-color: #fff; color: #333;
+    font-size: 14px; font-weight: bold; 
+}
+section.mycar div.inner ul.option_box {
+    display: flex; justify-content: space-around; align-items: center;
+    position: absolute; top: 300px; left: 25px;
+}
+section.mycar div.inner ul.option_box li {
+    width: 300px; height: 150px;
+    margin-right: 20px;
+    background-color: #d3d3d3;
+    border: 1px solid #333;
+}
+section.mycar div.inner ul.option_box li a i {
+    font-size: 24px; margin-top: 10px; margin-left: 10px;
+}
+section.mycar div.inner ul.option_box li a span {
+    display: block;  line-height: 75px;
+    font-size: 24px; text-align: center; font-weight: 900; 
+}
+section.genesis {
+    width: 100%; 
+    margin-top: 150px;
+}
+section.genesis div.inner {
+    width: 1320px; position: relative;
+    margin: 0 auto;
+}
+section.genesis div.inner article.gnenesis_ img{
+    width: 1320px;
+}
+section.genesis div.inner article.gnenesis_ p{
+    position: absolute; top: 38%; left: 50%;
+    transform: translate(-50% , -50%); line-height: 50px;
+    color: #fff; font-size: 18px; width: 500px; font-weight: bold;
+}
+section.genesis div.inner article.gnenesis_ a{
+    position: absolute; top: 65%; left: 50%;
+    transform: translate(-50% , -50%);
+}
+section.genesis div.inner article.gnenesis_ a > span{
+    display: block; font-size: 18px; color: #fff;
+    height: 40px; line-height: 40px; width: 220px; text-align: center; 
+    font-weight: 500; 
+}
+section.genesis div.inner article.gnenesis_ a > span:hover{
+    display: block; font-size: 18px; color: #d3d3d3;
+    scale: 1.2; text-decoration: underline;
+}
+section.genesis div.inner article.gnenesis_ a > img{
+    width: 150px;
+    padding: 20px 35px;
+    align-items: center;
+}
+section.event {
+    width: 100%;
+    margin-top: 150px;
+    
+}
+section.event div.inner div.textbox > h2 {
+    font-size: 32px; text-align: center; margin-bottom: 20px;    
+}
+section.event div.inner div.textbox > p {
+    font-size: 12px; text-align: center;
+    color: #808080;  
+}
+section.event div.inner {
+    width: 1320px; position: relative;
+    margin: 0 auto;
+}
+section.event div.inner article {
+    display: flex; justify-content: space-between; align-items: center;
+    height: 500px;
+}
+section.event div.inner article.event_box div.event1 a > img {
+    width: 400px; border: 1px solid #333;
+}
+section.event div.inner article.event_box div.event1 a > p {
+    text-align: center; font-size: 20px; color: #333;
+    margin-top: 20px; font-weight: bold;
+}
+section.event div.inner article.event_box div.event1 a > p:hover {
+    text-decoration: underline;
+}
+section.event div.inner article.event_box div.event1 a > span:nth-of-type(1) {
+ margin-top: 20px;
+}
+section.event div.inner article.event_box div.event1 a > span:nth-of-type(2) {
+ margin-top: 5px;
+}
+section.event div.inner article.event_box div.event1 a > span {
+    display:block; font-size: 14px; text-align: center; color: #808080;
+}
+section.event div.inner article.event_box div.event2 a > img {
+    width: 400px; border: 1px solid #333;
+}
+section.event div.inner article.event_box div.event2 a > p {
+    text-align: center; font-size: 22px; color: #333;
+    margin-top: 20px; font-weight: bold;
+}
+section.event div.inner article.event_box div.event2 a > p:hover {
+    text-decoration: underline;
+}
+section.event div.inner article.event_box div.event2 a > span:nth-of-type(1) {
+ margin-top: 20px;
+}
+section.event div.inner article.event_box div.event2 a > span:nth-of-type(2) {
+ margin-top: 5px;
+}
+section.event div.inner article.event_box div.event2 a > span {
+    display:block; font-size: 14px; text-align: center; color: #808080;
+}
+section.event div.inner article.event_box div.event3 a > img {
+    width: 400px; border: 1px solid #333;
+}
+section.event div.inner article.event_box div.event3 a > p {
+    text-align: center; font-size: 22px; color: #333;
+    margin-top: 20px; font-weight: bold;
+}
+section.event div.inner article.event_box div.event3 a > p:hover {
+    text-decoration: underline;
+}
+section.event div.inner article.event_box div.event3 a > span:nth-of-type(1) {
+ margin-top: 20px;
+}
+section.event div.inner article.event_box div.event3 a > span:nth-of-type(2) {
+ margin-top: 5px;
+}
+section.event div.inner article.event_box div.event3 a > span {
+    display:block; font-size: 14px; text-align: center; color: #808080;
+}
+section.shop {
+    width: 100%;
+    margin-top: 150px;
+}
+section.shop div.inner {
+    width: 1450px; margin: 0 auto; position: relative;
+}
+section.shop div.inner div.textbox2 > h2 {
+    font-size: 32px; text-align: center; margin-bottom: 20px;
+}
+section.shop div.inner div.textbox2 > p {
+    font-size: 12px; text-align: center;
+    color: #808080;  
+}
+section.shop div.inner article.shop_box {
+    display: flex; justify-content: space-between; align-items: center;
+    height: 550px; margin-top: 50px; 
+}
+section.shop div.inner article.shop_box div.shop_box1 {
+    border: 1px solid #333; position: relative;
+}
+section.shop div.inner article.shop_box div.shop_box1 a > img {
+    width: 400px; border-bottom: 1px solid #333;
+}
+section.shop div.inner article.shop_box div.shop_box1 a > p.brand {
+    font-size: 12px; color: #808080; text-align: right;
+    margin-right: 10px; margin-top: 5px;
+}
+section.shop div.inner article.shop_box div.shop_box1 a > p.name {
+    font-size: 16px; color: #333; text-align: right; font-weight: bold;
+    margin-right: 10px; margin-top: 5px;
+}
+section.shop div.inner article.shop_box div.shop_box1 a > p.price {
+    font-size: 14px; color: #d3d3d3; text-align: right; font-weight: bold;
+    margin-right: 10px; margin-top: 5px;
+}
+section.shop div.inner article.shop_box div.shop_box1 a > p.sale {
+    font-size: 22px; color: #333; text-align: right; font-weight: bold;
+    margin-right: 10px; margin-top: 5px;
+}
+section.shop div.inner article.shop_box div.shop_box1 a > p.sale > span {
+    font-size: 18px; color: #ff0000; text-align: right; font-weight: bold;
+    display: block; position: absolute; bottom: 0; right: 110px;
+}
+section.shop div.inner article.shop_box div.shop_box2 {
+    border: 1px solid #333; position: relative;
+}
+section.shop div.inner article.shop_box div.shop_box2 a > img {
+    width: 400px; border-bottom: 1px solid #333;
+}
+section.shop div.inner article.shop_box div.shop_box2 a > p.brand {
+    font-size: 12px; color: #808080; text-align: right;
+    margin-right: 10px; margin-top: 5px;
+}
+section.shop div.inner article.shop_box div.shop_box2 a > p.name {
+    font-size: 16px; color: #333; text-align: right; font-weight: bold;
+    margin-right: 10px; margin-top: 5px;
+}
+section.shop div.inner article.shop_box div.shop_box2 a > p.price {
+    font-size: 14px; color: #d3d3d3; text-align: right; font-weight: bold;
+    margin-right: 10px; margin-top: 5px;
+}
+section.shop div.inner article.shop_box div.shop_box2 a > p.sale {
+    font-size: 22px; color: #333; text-align: right; font-weight: bold;
+    margin-right: 10px; margin-top: 5px;
+}
+section.shop div.inner article.shop_box div.shop_box2 a > p.sale > span {
+    font-size: 18px; color: #ff0000; text-align: right; font-weight: bold;
+    display: block; position: absolute; bottom: 0; right: 110px;
+}
+section.shop div.inner article.shop_box div.shop_box3 {
+    border: 1px solid #333; position: relative;
+}
+section.shop div.inner article.shop_box div.shop_box3 a > img {
+    width: 400px; border-bottom: 1px solid #333;
+}
+section.shop div.inner article.shop_box div.shop_box3 a > p.brand {
+    font-size: 12px; color: #808080; text-align: right;
+    margin-right: 10px; margin-top: 5px;
+}
+section.shop div.inner article.shop_box div.shop_box3 a > p.name {
+    font-size: 16px; color: #333; text-align: right; font-weight: bold;
+    margin-right: 10px; margin-top: 5px;
+}
+section.shop div.inner article.shop_box div.shop_box3 a > p.price {
+    font-size: 14px; color: #d3d3d3; text-align: right; font-weight: bold;
+    margin-right: 10px; margin-top: 5px;
+}
+section.shop div.inner article.shop_box div.shop_box3 a > p.sale {
+    font-size: 22px; color: #333; text-align: right; font-weight: bold;
+    margin-right: 10px; margin-top: 5px;
+}
+section.shop div.inner article.shop_box div.shop_box3 a > p.sale > span {
+    font-size: 18px; color: #ff0000; text-align: right; font-weight: bold;
+    display: block; position: absolute; bottom: 0; right: 110px;
+}
+section.membership {
+    width: 100%;
+    margin-top: 150px;
+}
+section.membership div.inner {
+    width: 1320px; position: relative;
+    margin: 0 auto;
+}
+section.membership div.inner div.textbox3 > h2 {
+    font-size: 32px; text-align: center; margin-bottom: 20px;
+}
+section.membership div.inner div.textbox3 > p {
+    font-size: 12px; text-align: center;
+    color: #808080; 
+}
+section.membership div.inner article.memberbox {
+    height: 300px; position: relative;
+    display: flex; justify-content: space-between; align-items: center;
+    margin-top: 50px;
+}
+section.membership div.inner article.memberbox div.memberbox {
+    width: 600px; height: 300px;
+    border: 1px solid #333;
+    background: url(../img/bodycare.png) no-repeat center/cover;
+    opacity: .9;
+}
+section.membership div.inner article.memberbox div.memberbox h2 {
+    position: absolute; top: 40%; left: 13%; transform: translate(-50%,-50%);
+    font-size: 24px; color: #fff; 
+}
+section.membership div.inner article.memberbox div.memberbox p {
+    position: absolute; top: 58%; left: 17.5%; transform: translate(-50%,-50%);
+    font-size: 14px; color: #fff; font-weight: 300;
+}
+section.membership div.inner article.memberbox div.memberbox p > a{
+    width: 90px; display: block;
+}
+section.membership div.inner article.memberbox div.memberbox p > a:hover > span {
+    color: #333; background-color: #fff; border: 1px solid #fff;
+    font-weight: 900;
+}
+section.membership div.inner article.memberbox div.memberbox p a > span {
+    font-size: 12px; color: #fff; display: block; line-height: 25px;
+    border: 1px solid #00AAD2; width: 90px; height: 25px; text-align: center;
+    background-color: #00AAD2; margin-top: 10px; font-weight: 900;
+}
+section.membership div.inner article.memberbox div.memberbox2 {
+    width: 600px; height: 300px; position: relative;
+    border: 1px solid #333;
+    background: url(../img/plus.png) no-repeat center/cover;
+    opacity: .9;
+}
+section.membership div.inner article.memberbox div.memberbox2 h2 {
+    position: absolute; top: 40%; left: 50%; transform: translate(-50%,-50%);
+    font-size: 24px; color: #fff; 
+}
+section.membership div.inner article.memberbox div.memberbox2 p {
+    position: absolute; top: 58%; left: 50%; transform: translate(-50%,-50%);
+    font-size: 14px; color: #fff; font-weight: 300; text-align: center;
+}
+section.membership div.inner article.memberbox div.memberbox2 p > a{
+    width: 90px; display: block;
+    position: absolute;  top: 55px; left: 28%; transform: translate(0 , -50%);
+}
+section.membership div.inner article.memberbox div.memberbox2 p > a:hover > span {
+    color: #333; background-color: #fff; border: 1px solid #fff;
+    font-weight: 900;
+}
+section.membership div.inner article.memberbox div.memberbox2 p a > span {
+    font-size: 12px; color: #fff; display: block; line-height: 25px;
+    border: 1px solid #00AAD2; width: 90px; height: 25px; text-align: center;
+    background-color: #00AAD2; margin-top: 10px; font-weight: 900;
+}
+section.campaign {
+    width: 100%;
+    margin-top: 150px;
+}
+div.inner {
+    width: 1320px; position: relative;
+    margin: 0 auto;
+}
+div.inner h2 {
+    font-size: 32px; text-align: center; margin-bottom: 20px;
+}
+div.inner p {
+    font-size: 12px; text-align: center;
+    color: #808080; 
+}
+section.campaign div.inner article.campaign_box {
+    height: 600px; display: flex; justify-content: space-between; align-items: center; box-sizing: border-box;
+}
+section.campaign div.inner article.campaign_box a > div.backbox {
+    width: 300px; height: 500px; opacity: .6;
+    background-color: #333; display: none;
+}
+section.campaign div.inner article.campaign_box div.campign1 {
+    width: 300px; height: 500px; position: relative;
+    background: url(../img/Hyundaicar\ x\ UNDP\ 2023.png) no-repeat center/cover;
+}
+section.campaign div.inner article.campaign_box div.campign1 a {
+    width: 300px; height: 500px; display: block;
+}
+section.campaign div.inner article.campaign_box div.campign1 a > p {
+    color: #fff; position: absolute; top: 40%; z-index: 1;
+    display: none;
+    font-size: 24px; font-weight: bold; text-align: center;
+}
+section.campaign div.inner article.campaign_box div.campign1 a > p > span {
+    display: block; font-size: 14px; width: 300px; font-weight: 700; 
+    margin-top: 10px;
+}
+section.campaign div.inner article.campaign_box div.campign1 a:hover > p{
+    display: block; transition: 1s;
+}
+section.campaign div.inner article.campaign_box div.campign1 a:hover > div.backbox {
+    display: block;  transition: 1s;
+}
+section.campaign div.inner article.campaign_box div.campign2 {
+    width: 300px; height: 500px; position: relative;
+    background: url(../img/hyundaicar_future.png) no-repeat center/cover;
+}
+section.campaign div.inner article.campaign_box div.campign2 a {
+    width: 300px; height: 500px; display: block;
+}
+section.campaign div.inner article.campaign_box div.campign2 a > p {
+    color: #fff; position: absolute; top: 40%; z-index: 1;
+    display: none;
+    font-size: 24px; font-weight: bold; text-align: center;
+}
+section.campaign div.inner article.campaign_box div.campign2 a > p > span {
+    display: block; font-size: 14px; width: 300px; font-weight: 700; 
+    margin-top: 10px;
+}
+section.campaign div.inner article.campaign_box div.campign2 a:hover > p{
+    display: block; transition: 1s;
+}
+section.campaign div.inner article.campaign_box div.campign2 a:hover > div.backbox {
+    display: block;  transition: 1s;
+}
+section.campaign div.inner article.campaign_box div.campign3 {
+    width: 300px; height: 500px; position: relative;
+    background: url(../img/carbon_neutral.png) no-repeat center/cover;
+}
+section.campaign div.inner article.campaign_box div.campign3 a {
+    width: 300px; height: 500px; display: block;
+}
+section.campaign div.inner article.campaign_box div.campign3 a > p {
+    color: #fff; position: absolute; top: 40%; z-index: 1;
+    display: none;
+    font-size: 24px; font-weight: bold; text-align: center;
+}
+section.campaign div.inner article.campaign_box div.campign3 a > p > span {
+    display: block; font-size: 14px; width: 300px; font-weight: 700; 
+    margin-top: 10px;
+}
+section.campaign div.inner article.campaign_box div.campign3 a:hover > p{
+    display: block; transition: 1s;
+}
+section.campaign div.inner article.campaign_box div.campign3 a:hover > div.backbox {
+    display: block;  transition: 1s;
+}
+section.campaign div.inner article.campaign_box div.campign4 {
+    width: 300px; height: 500px; position: relative;   
+    background: url(../img/carbon_neutral2.png) no-repeat center/cover;
+}
+section.campaign div.inner article.campaign_box div.campign4 a {
+    width: 300px; height: 500px; display: block;
+}
+section.campaign div.inner article.campaign_box div.campign4 a > div.campignimg4 {
+    width: 300px; height: 500px; display: block;
+}
+section.campaign div.inner article.campaign_box div.campign4 a > p {
+    color: #fff; position: absolute; top: 40%; z-index: 1;
+    display: none;
+    font-size: 24px; font-weight: bold; text-align: center;
+}
+section.campaign div.inner article.campaign_box div.campign4 a > p > span {
+    display: block; font-size: 14px; width: 300px; font-weight: 700; 
+    margin-top: 10px;
+}
+section.campaign div.inner article.campaign_box div.campign4 a:hover > p{
+    display: block; transition: 1s;
+}
+section.campaign div.inner article.campaign_box div.campign4 a:hover > div.backbox {
+    display: block;  transition: 1s;  
+}
+footer {
+    width: 100%; margin-top: 150px;
+    background-color: #1C1B1B;
+}
+footer div.inner {
+    width: 1320px; height: 200px; position: relative;
+    display: flex; justify-content: space-around; align-items: center;
+}
+footer div.inner div.logobox {
+    width: 200px; height: 50px;
+}
+footer div.inner div.logobox img {
+    width: 150px;  height: 30px;
+}
+footer div.inner div.menubox {
+    width: 600px;
+}
+footer div.inner div.menubox ul.fotmenu {
+    display: flex; justify-content: space-around; align-items: center; margin-top: 10px;  width: 450px; margin-left: 14px;
+} 
+footer div.inner div.menubox ul.fotmenu li {
+    font-size: 12px; color: #808080;
+    text-align: center; 
+} 
+footer div.inner div.menubox ul.fotmenu li > a{
+    font-size: 12px; color: #808080;
+    
+} 
+footer div.inner div.menubox ul.fotmenu2 {
+    display: flex; justify-content: space-around; align-items: center;  width: 400px; margin-top: 10px;
+    margin-left: 15px;
+} 
+footer div.inner div.menubox ul.fotmenu2 li {
+text-align: center;
+} 
+footer div.inner div.menubox ul.fotmenu2 li > a{
+    font-size: 12px; color: #808080;
+} 
+footer div.inner div.menubox > p {
+    font-size: 12px; text-align: left;
+    margin-left: 20px; margin-top: 10px;
+    color: #808080;
+}
+footer div.inner div.menubox > span {
+    font-size: 12px; text-align: left; display: block;
+    margin-left: 20px; margin-top: 10px; color: #808080;
+}
+footer div.inner div.sns {
+    width: 300px;
+}
+footer div.inner div.sns ul.sns {
+    display: flex; justify-content: space-between; align-items: center;
+}
+footer div.inner div.sns ul.sns li {
+    text-align: center;
+}
+footer div.inner div.sns ul.sns li a i {
+    font-size: 20px; color: #808080;
+}
+footer div.inner div.sns select {
+    width: 300px; height: 30px; color: #808080; border: 1px solid #808080; text-align: left;
+    margin-top: 20px; background-color: #1C1B1B;
+}
